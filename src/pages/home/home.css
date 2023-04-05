@@ -1,0 +1,74 @@
+a {
+    text-decoration: none;
+}
+
+.homenav {
+    width: 60%;
+    margin: 0 18%;
+    padding: 20px 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homenavbutton {
+    color: blue;
+    font-size: 24px;
+}
+
+.homenavtitle {
+    font-size: 32px;
+    font-family: 'Aclonica';
+}
+
+.homecontentleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.homecontent {
+    display: flex;
+    width: 60%;
+    margin: 0 18%;
+    padding: 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homecontentleftTitle {
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Alatsi';
+    text-align: left;
+
+}
+
+.homecontentsubtitle {
+    padding: 20px 0;
+    font-size: 18px;
+    font-family: 'Alatsi';
+    text-align: left;
+}
+
+.homecontentBtn {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: bisque;
+    color: rgb(30, 30, 244);
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.homecontentBtn:hover {
+    background-color: rgb(55, 55, 238);
+    color: white;
+}
+
+.btnhomelink {
+    width: 100%;
+    text-align: left;
+}
